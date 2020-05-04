@@ -1,0 +1,17 @@
+[2020-05-04 23:17:54]  INFO com.ljq.util.XMLParse(line:19) - 开始解析tomcat配置文件:/D:/document/code/IdeaProjects/minitomcat/target/classes/web.xml
+[2020-05-04 23:17:54]  INFO com.ljq.util.TomcatConfig(line:28) - 开始解析tomcat配置文件：/D:/document/code/IdeaProjects/minitomcat/target/classes/minitomcat.properties
+[2020-05-04 23:17:54]  INFO com.ljq.util.TomcatConfig(line:43) - IOType is:Netty
+[2020-05-04 23:17:54]  INFO com.ljq.util.TomcatConfig(line:44) - server.port is:8080
+[2020-05-04 23:17:54]  INFO com.ljq.server.NettyServer(line:21) - netty server is starting ...
+[2020-05-04 23:17:57]  INFO com.ljq.http.MyRequest(line:60) - /hello.html：262_1588605286457_21680
+[2020-05-04 23:17:57]  INFO com.ljq.server.ServletUtil(line:51) - /hello.html匹配的servlet地址为 /
+[2020-05-04 23:17:57]  INFO com.ljq.instance.StaticServlet(line:29) - /hello.html请求的资源是：hello.html
+[2020-05-04 23:17:57]  INFO com.ljq.http.MyRequest(line:60) - /css/style.css：689_1588605286535_21680
+[2020-05-04 23:17:57]  INFO com.ljq.server.ServletUtil(line:51) - /css/style.css匹配的servlet地址为 /
+[2020-05-04 23:17:57]  INFO com.ljq.instance.StaticServlet(line:29) - /css/style.css请求的资源是：css/style.css
+[2020-05-04 23:17:57]  INFO com.ljq.http.MyRequest(line:60) - /js/message.js：4594_1588605286637_21680
+[2020-05-04 23:17:57]  INFO com.ljq.server.ServletUtil(line:51) - /js/message.js匹配的servlet地址为 /
+[2020-05-04 23:17:57]  INFO com.ljq.instance.StaticServlet(line:29) - /js/message.js请求的资源是：js/message.js
+[2020-05-04 23:17:57]  INFO com.ljq.http.MyRequest(line:60) - /favicon.ico：1659_1588605477321_21724
+[2020-05-04 23:17:57]  INFO com.ljq.server.ServletUtil(line:51) - /favicon.ico匹配的servlet地址为 /
+[2020-05-04 23:17:57]  INFO com.ljq.instance.StaticServlet(line:29) - /favicon.ico请求的资源是：favicon.ico

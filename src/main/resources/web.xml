@@ -1,0 +1,18 @@
+<web-app>
+    <servlet>
+        <servlet-name>postServlet</servlet-name>
+        <servlet-class>com.ljq.instance.postServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+         <servlet-name>postServlet</servlet-name>
+         <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>StaticServlet</servlet-name>
+        <servlet-class>com.ljq.instance.StaticServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaticServlet</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+</web-app>
